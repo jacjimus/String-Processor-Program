@@ -15,6 +15,6 @@ $string2 = "Welcome to Radix!!!";
 $string3 = "Everybody, thanks you for trying this out.";
 
 
-$processor->receive($string1);
-$processor->receive($string2);
-$processor->receive($string3);
+$processor->receive($string1);  // process te first string and output the results
+$processor->receive($string2); // process te second string and output the results
+$processor->receive($string3); // process te third string and output the results

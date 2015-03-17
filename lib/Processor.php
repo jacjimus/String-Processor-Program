@@ -9,6 +9,7 @@
  */
 class Processor {
     
+   
     /*** Initialize the VOWEL and CONSONANTS arrays  ***/
     const VOWELS = array('a', 'e', 'i', 'o', 'u', 'y');
     const DELIMITER = ' ';
@@ -33,7 +34,11 @@ class Processor {
          *** added in place of special characted in step 1. *****/
         $exploded = array_filter(explode(self::DELIMITER, $string));
        
-        $val = $this->findCorrespondingCharacter($exploded);
+        
+        /*** final stage where the string will be validated upon the required conditions i.e 
+         *** This is the main program.
+         ***/
+        $this->findCorrespondingCharacter($exploded);
         
       
     }
