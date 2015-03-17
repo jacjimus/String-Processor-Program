@@ -1,0 +1,2 @@
+# String-Processor-Program
+A PHP program  that can count the number of words in a string separated by spaces and/or punctuation marks. You should only count words where the vowels and consonants are alternating. A word can not have two consecutive vowels or consonants. Single letter words are not counted. Ignore anything in the file that is not a vowel or a constant. Replace anything that is not in the alphabet with a single space. Case sensitivity of each letter does not matter
