@@ -3,7 +3,7 @@
 /****This file contains automated unit testing for the php string processor, Once the file is 
  * run from a browser , it will test the  program as below :-
  *      1. The unit that checks if string contains a special character not in either vowels or
- *         cononants and replaces with a space character
+ *         consonants and replaces with a space character
  *        
  */
 
