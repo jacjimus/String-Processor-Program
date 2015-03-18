@@ -11,7 +11,7 @@ $processor = new Processor();
 
 // The sample test Strings
 $string1 = "Hello there great new world";
-$string2 = "Welcome to Radix!!!";
+$string2 = "WELCOME TO RADIX!!!";
 $string3 = "Everybody, thanks you for trying this out.";
 
 

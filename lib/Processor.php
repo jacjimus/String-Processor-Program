@@ -43,7 +43,7 @@ class Processor {
       
     }
     
-    private function findSpecialChars($string) {
+    public function findSpecialChars($string) {
         
         $string = utf8_decode(strtolower($string));  // Decode the string into utf8 and convert to lower characters such that input is case insensitive
         $word_arr = array();
@@ -59,7 +59,7 @@ class Processor {
          return $string;
     }
     
-    private function findCorrespondingCharacter($array) {
+    public function findCorrespondingCharacter($array) {
         /*****************Function Definition ******************************************************************
          This function checks whether 2 corresponding letters of each word belong to either Vowels or Cononants*/
       $count = 0;
