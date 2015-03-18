@@ -16,11 +16,11 @@ include_once 'lib/Processor.php';
 // The default object / Class constructor
 $processor = new Processor();
 
-echo "The test sting is <br />";
+echo "The test string is <br />";
 echo '"'.$string .'"';
 echo "<br /><br />";
 
 echo "The output of the test that checks if string contains a special character not in either vowels or
-      cononants and replaces with a space character :<br /><br />";
+      consonants and replaces with a space character :<br /><br />";
 echo '"' .$processor->findSpecialChars($string) . '"';
 

@@ -3,7 +3,7 @@
 /****This file contains automated unit testing for the php string processor, Once the file is 
  * run from a browser , it will test  the program as below :-
  *      
- *       The unit that checks if 2 corresponding characters in a word are subset of either vowels or consonants
+ *       The unit that  counts words without corresponding characters from set of either vowels or consonants
  *  
  */
 
@@ -21,6 +21,6 @@ echo '"'.$string .'"';
 echo "<br /><br />";
  $str = $processor->findSpecialChars($string); 
  $exploded_string = array_filter(explode(Processor::DELIMITER, $str));
-echo "The output of the test that checks if 2 corresponding characters in a word are subset of either vowels or consonants is: <br /><br />";
+echo "The output of the test that counts words without corresponding characters from set of either vowels or consonants is: <br /><br />";
 echo $processor->findCorrespondingCharacter($exploded_string) ;
 
